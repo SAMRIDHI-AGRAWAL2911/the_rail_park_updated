@@ -1,0 +1,281 @@
+.mainfoot{
+    background-color: #0CEE72;
+    height:297.6px;
+    text-align: center;
+    justify-content: center;
+}
+.footform{
+    justify-content: center;
+}
+.html{
+    overflow: hidden;overflow-x: hidden;
+    background-color: #FAF9F7;
+    width:100vw !important;
+    height:100vh !important;
+}
+main{
+    overflow:hidden;
+    background-color: #FAF9F7;
+}
+header{
+    overflow:hidden;
+}
+.mainfoot h2{
+    text-align: center;
+}
+footer{
+    color:white;
+    background-color: black;
+    overflow:inherit;
+    width:100vw;
+}
+.navul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+}
+navli{
+    list-style: none;
+}
+.navli:hover{
+    color:#0CEE72;
+}
+.donatebutton{
+    font-size: 1.7rem;
+    padding: var(--space-xs) var(--space-l);
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border-radius: 4.8rem;
+    color: var(--color-black);
+    border: 0.1rem solid var(--color-black);
+}
+.navlilogo{
+    transition: fill 200ms var(--ease-quart-in-out);
+    box-sizing: inherit;
+}
+.therailpark{
+    display: block;
+    text-align: left;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    font-weight: 600;
+    color: #131313;
+    font-size: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.phaseone{
+    display: block;
+    text-align: left;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    font-weight: 600;
+    color: #131313;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.planyourvisit{
+    color:#0CEE72;
+    font-size:3rem;
+}
+.visitingpark{
+    translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);
+    font-size: 65px;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    text-align: right;
+}
+.divnobleentrance{
+    display:flex;
+    padding:0px 50px;
+}
+.subdivnobleentrance{
+    padding: 0px 20px;
+}
+.noblestentrance{
+    font-size: clamp(3.5rem, 3.1471rem + 1.1029vw, 5rem);
+    text-align: right;
+}
+.callowhillentrance{
+    display: flex;
+    justify-content: center;
+}
+.subcallowhillentrance{
+    justify-content: space-between;
+}
+.wheelchair{
+    align-content: end;
+}
+.noblest{
+    text-align: right;
+    font-size: 20px;
+}
+.threemilegreenway{
+    display: block; text-align: left; position: relative; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;
+    font-size: 70px;
+    font-weight: 600;
+}
+.highlight{
+    color: #0CEE72;
+    font-size: 70px;
+    font-weight: 600;
+}
+.campaignimage:hover{
+    transition: ease-out;
+    transition-duration: 500ms;
+}
+.clickheretodonate{
+    padding:20px;
+}
+.hours_office{
+    display: flex;
+    padding:0px 200px;
+}
+.clickheretodonate{
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0.01s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: rotate;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end:normal;
+}
+.donate-n-info{
+    display:flex;
+    padding:20px;
+}
+.details{
+    display:flex;
+}
+.details div{
+    padding:30px;
+    width:470px;
+}
+.navbar{
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+    display:block;
+}
+.rootsofrailparkhead{
+    background-color: white;
+    padding: 20px;
+    position:relative;
+}
+.featuredeventsvg{
+    position: absolute;
+    top:-30px;
+    right:-30px;
+}
+.rootsofrailpark{
+    display:flex;
+    justify-content: center;
+}
+.navbar{
+    display:flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li{
+    color:white;
+    text-decoration: none;
+}
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.hamburger{
+    display:none;
+    cursor:pointer;
+}
+.bar{
+    display:block;
+    width:25px;
+    height: 3px;
+    margin:5px auto;
+    background-color: #000000;
+}
+.hamburger.active.bar:nth-child(2){
+    opacity:0;
+}
+.hamburger.active.bar:nth-child(1){
+    transform:translateY(8px)rotate(45deg);
+}
+.hamburger.active.bar:nth-child(3){
+    transform:translateY(-8px)rotate(-45deg);
+}
+.nav-menu{
+    position:fixed;
+    left:-100%;
+    top: 70px;
+    gap:0;
+    flex-direction: column;
+    background-color: #000000;
+    width:100%;
+    text-align:center;
+    transition: 0.3s;
+}
+.nav-menu.active{
+    left:0;
+}
+.contactimage{
+    padding:10px;
+}
+.instagram:hover{
+    color: #ff0033;
+}
+.twitter:hover{
+    color:#0099ff
+}
+.facebook:hover{
+    color:#0099ff
+}
+.thetunnel{
+    display:flex;
+    justify-content: center;
+}
+.callowhill{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding:2rem;
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 970px) {
+    .hours_office{
+        display:flex;
+        flex-direction: column;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+@media  screen and (min-width) {
+    
+}
